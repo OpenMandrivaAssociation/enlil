@@ -11,7 +11,7 @@
 #cd ..; \
 #tar -Jcf enlil-$PKG_VERSION.tar.xz enlil/ --exclude .svn --exclude .*ignore
 # to disable debug build error
-%debug_package %{nil}
+%define debug_package %{nil}
 
 %define svndate 20120103
 %define svnrev  66610
