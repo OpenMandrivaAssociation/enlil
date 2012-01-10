@@ -73,9 +73,6 @@ NOCONFIGURE=yes ./autogen.sh
 rm -fr %{buildroot}
 %makeinstall
 
-# Remove rubbish
-rm -rf %{buildroot}%{_includedir}/%{name}-
-
 %files
 %doc AUTHORS COPYING NEWS README
 %{_bindir}/enlil_db_load_sync
