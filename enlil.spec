@@ -23,7 +23,7 @@
 Summary:	enil Library for EFL
 Name:		enlil
 Version:	0.6.0.%{svnrev}
-Release:	0.%{svndate}.1
+Release:	0.%{svndate}.2
 Group:		Graphical desktop/Enlightenment
 License:	BSD
 URL:		http://www.enlightenment.org/
