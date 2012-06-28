@@ -13,8 +13,8 @@
 # to disable debug build error
 %define debug_package %{nil}
 
-%define svndate 20120103
-%define svnrev  66610
+%define svndate 20120728
+%define svnrev	70759
 
 %define	major	0
 %define	libname		%mklibname	enlil %{major}
@@ -23,11 +23,11 @@
 Summary:	enil Library for EFL
 Name:		enlil
 Version:	0.6.0.%{svnrev}
-Release:	0.%{svndate}.2
+Release:	0.%{svndate}.1
 Group:		Graphical desktop/Enlightenment
 License:	BSD
 URL:		http://www.enlightenment.org/
-Source:		%{name}-%{version}.tar.xz
+Source0:	%{name}-%{version}.tar.xz
 
 BuildRequires:	gettext-devel
 BuildRequires:  pkgconfig(azy)
