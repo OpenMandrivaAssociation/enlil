@@ -13,8 +13,8 @@
 # to disable debug build error
 %define debug_package %{nil}
 
-%define svndate 20120728
-%define svnrev	70759
+%define svndate 20121010
+%define svnrev	73129
 
 %define	major	0
 %define	libname		%mklibname	enlil %{major}
