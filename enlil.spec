@@ -26,7 +26,7 @@ Version:	0.6.0.%{svnrev}
 Release:	0.%{svndate}.1
 Group:		Graphical desktop/Enlightenment
 License:	BSD
-URL:		http://www.enlightenment.org/
+URL:		https://www.enlightenment.org/
 Source0:	%{name}-%{version}.tar.xz
 
 BuildRequires:	gettext-devel
